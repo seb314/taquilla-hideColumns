@@ -306,7 +306,8 @@
       treecol.setAttribute("tooltiptext", "'" + tagname + "' percent match");
       treecol.setAttribute("label", tagname.substr(0, 1) + "%");
       //treecol.setAttribute("ignoreincolumnpicker", true);
-      //treecol.setAttribute("hidden", "false");
+      //make the custom column hidden by default (? I hope this works ?)
+      treecol.setAttribute("hidden", "true");
       //treecol.setAttribute("class", "treecol-image");
       //treecol.setAttribute("src", "chrome://taquilla/skin/emblem-favorite.png");
       threadcols.appendChild(treecol);
@@ -334,6 +335,8 @@
       let tagname = tagService.getTagForKey(tagkey);
       treecol.setAttribute("tooltiptext", "'" + tagname + "' source");
       treecol.setAttribute("label", tagname.substr(0, 1) + "?");
+      //make the custom column hidden by default (? I hope this works ?)
+      treecol.setAttribute("hidden", "true");
       //treecol.setAttribute("ignoreincolumnpicker", true);
       //treecol.setAttribute("class", "treecol-image");
       //treecol.setAttribute("src", "chrome://taquilla/skin/emblem-important.png");
