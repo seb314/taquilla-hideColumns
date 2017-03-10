@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>taquilla@mesquilla.com</em:id>
+    <em:type>2</em:type> <!-- 2 is type 'extension' -->
+    <em:version>0.3.4</em:version>
+    <em:creator>R Kent James</em:creator>
+    <em:description>Automatic tagging using Bayesian statistics</em:description>
+    <em:name>TaQuilla</em:name>
+    <em:homepageURL>http://www.mesquilla.com/extensions/taquilla</em:homepageURL>
+    <em:optionsURL>chrome://taquilla/content/options.xul</em:optionsURL>
+     <!-- Thunderbird -->
+     <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>3.0b2pre</em:minVersion>
+        <em:maxVersion>45.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- SeaMonkey -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.0a3pre</em:minVersion>
+        <em:maxVersion>2.21.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

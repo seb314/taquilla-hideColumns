@@ -1,0 +1,9 @@
+<!ENTITY taquilla.CalculateSoftTags "Calculate Soft Tags">
+<!ENTITY taquilla.CalculateSoftTagsForFolder "Taquilla: Calculate Soft Tags for Folder">
+<!ENTITY taquilla.token "Token">
+<!ENTITY taquilla.tokenPercent "Token &#037;">
+<!ENTITY taquilla.runningPercent "Running &#037;">
+<!ENTITY taquilla.folderOptions "TaQuilla Folder Options">
+<!ENTITY taquilla.tag "Tag">
+<!ENTITY taquilla.enabled "Enabled">
+<!ENTITY taquilla.inherit "Inherit">

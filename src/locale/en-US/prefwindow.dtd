@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "TaQuilla preferences">
+<!ENTITY pane1.title "TaQuilla Preferences">
+<!ENTITY sample.label "Sample">
+<!ENTITY sample.accesskey "S">
+<!ENTITY tag "Tag">
+<!ENTITY enabled "Enabled">
+<!ENTITY default "Analyze all folders">
+<!ENTITY percent "Percent">
+<!ENTITY restartNeeded "Restart after any changes here.">
+<!ENTITY useSetClear "Use set/clear instead of toggle for tagging keys">
+<!ENTITY useSetClear.accesskey "U">
+<!ENTITY setkey "Tag set key">
+<!ENTITY clearkey "Tag clear key">
