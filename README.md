@@ -1,4 +1,4 @@
-# taquilla-hideColmuns
+# taquilla-hideColumns
 Automatically tag mails in Thunderbird using Machine Learning/Bayes; small modification of R Kent's TaQuilla, with the custom columns hidden by default
 
 The original TaQuilla can be found here 
